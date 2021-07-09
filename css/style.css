@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* .................first section....... */
+
+.header {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header .header_head {
+    padding-top: 20px;
+}
+
+.header .header_head img {
+    float: left;
+}
+
+.header .header_head nav {
+    float: right;
+}
+
+.header .header_head nav ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.header .header_head nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .header_head nav ul li a:hover {
+    color: rgb(223, 219, 219);
+}
+
+.header .header_content {
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    text-align: center;
+    color: #fff;
+}
