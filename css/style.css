@@ -94,7 +94,7 @@ body {
 }
 
 .header .header_content button:last-child {
-    background: #8be2e5;
+    background: #70cbce;
     color: #fff;
 }
 
@@ -153,6 +153,7 @@ section.befirst {
     padding-top: 15%;
     text-align: center;
     background-attachment: fixed;
+    margin-bottom: 25%;
 }
 
 .befirst .befirst_content {
@@ -177,4 +178,86 @@ section.befirst {
 
 .befirst .befirst_image img {
     width: 40%;
+}
+
+
+/* ............................... */
+
+.feature {
+    width: 100%;
+    height: 300px;
+}
+
+.feature .feature_feat {
+    width: 32%;
+    float: left;
+    text-transform: capitalize;
+    margin-left: 2%;
+}
+
+.feature .feature_feat:nth-child(1) {
+    margin-left: 0;
+}
+
+.feature .feature_feat hr {
+    height: 4px;
+    border: 0;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.feature .feature_feat h2 {
+    font-size: 16px;
+}
+
+.feature .feature_feat p {
+    opacity: 0.5;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.feature .feature_feat:nth-child(1) hr {
+    background-color: #6d3f96;
+}
+
+.feature .feature_feat:nth-child(2) hr {
+    background-color: #70cbce;
+}
+
+.feature .feature_feat:nth-child(3) hr {
+    background-color: #fdc05d;
+}
+
+
+/* .................................... */
+
+.pricing {
+    width: 100%;
+    text-align: center;
+    background: #70cbce;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.pricing h2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.pricing p {
+    color: #fff;
+    padding-top: 10px;
+    opacity: 0.8;
+}
+
+.pricing .pricing_flex {
+    display: flex;
+    width: 100%;
+    background: #6d3f96;
+    margin: auto;
+}
+
+.pricing .pricing_flex .pricing_card {
+    width: 30%;
 }
