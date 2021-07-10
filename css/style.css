@@ -249,15 +249,91 @@ section.befirst {
     color: #fff;
     padding-top: 10px;
     opacity: 0.8;
+    margin-bottom: 5%;
 }
 
 .pricing .pricing_flex {
     display: flex;
     width: 100%;
-    background: #6d3f96;
-    margin: auto;
+    justify-content: center;
 }
 
 .pricing .pricing_flex .pricing_card {
-    width: 30%;
+    width: 33%;
+}
+
+.pricing .pricing_flex .pricing_card:nth-child(1),
+.pricing .pricing_flex .pricing_card:nth-child(3) {
+    margin-top: 2%;
+}
+
+.pricing .pricing_flex .pricing_card:nth-child(2) ul {
+    border: 1px solid #ddd;
+    /* box-shadow: 10px 10px 60px #eee; */
+}
+
+.pricing .pricing_flex .pricing_card ul {
+    list-style: none;
+    background: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.pricing .pricing_flex .pricing_card ul:hover {
+    margin-top: -10px;
+}
+
+.pricing .pricing_flex .pricing_card .price {
+    background: #231f20;
+    color: #fff;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.pricing .pricing_flex .pricing_card .doller {
+    background: #231f20;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.pricing .pricing_flex .pricing_card .doller:hover {
+    opacity: 0.9;
+}
+
+.pricing .pricing_flex .pricing_card .doller small {
+    color: #929496;
+    font-weight: normal;
+}
+
+.pricing .pricing_flex .pricing_card .content {
+    color: #929496;
+    padding: 20px;
+    font-size: 13px;
+    border-bottom: 1px solid #eee;
+}
+
+.pricing .pricing_flex .pricing_card .list {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    font-weight: bolder;
+    font-size: 13px;
+    color: #231f20;
+}
+
+.pricing .pricing_flex .pricing_card .btn {
+    padding: 20px;
+    color: #70cbce;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.pricing .pricing_flex .pricing_card .btn:hover {
+    background: #eee;
 }
