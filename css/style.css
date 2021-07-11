@@ -337,3 +337,119 @@ section.befirst {
 .pricing .pricing_flex .pricing_card .btn:hover {
     background: #eee;
 }
+
+
+/* ............................................ */
+
+.invite {
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.invite .get_invite {
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.invite .get_invite i {
+    padding: 16px;
+    border: 2px solid #70cbce;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #70cbce;
+}
+
+.invite .get_invite h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.invite .get_invite p {
+    color: #888;
+    margin-bottom: 25px;
+}
+
+.invite .get_invite input {
+    display: block;
+    margin: auto;
+    padding: 18px 10px;
+    width: 33%;
+    border: 0;
+    margin-bottom: 15px;
+    background: #fff;
+    outline: 0;
+}
+
+.invite .get_invite input:focus {
+    border: 2px solid #70cbce;
+    border-radius: 3px;
+}
+
+.invite .get_invite input:hover {
+    outline: 1px solid #aaa;
+}
+
+.invite .get_invite input::placeholder {
+    color: #bbb;
+    font-weight: bolder;
+}
+
+.invite .get_invite button {
+    padding: 18px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    background: #70cbce;
+    border-radius: 5px;
+}
+
+
+/* ................................. */
+
+.info {
+    width: 100%;
+    height: 500px;
+}
+
+.info .info_content {
+    width: 80%;
+    margin: auto;
+    padding-top: 3%;
+}
+
+.info .info_content:first-child {
+    padding-top: 10%;
+}
+
+.info .info_content .info_img {
+    float: left;
+    width: 20%;
+}
+
+.info .info_content .info_img img {
+    width: 100%;
+}
+
+.info .info_content .info_pragraph {
+    line-height: 23px;
+    padding-top: 10px;
+}
+
+.info .info_content .info_pragraph p {
+    color: #777;
+}
+
+.info .info_content .info_pragraph p span {
+    font-style: italic;
+    color: #333;
+}
+
+.info hr {
+    margin-top: 20px;
+    width: 100%;
+    opacity: 0.3;
+}
